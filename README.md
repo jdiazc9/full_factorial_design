@@ -1,6 +1,12 @@
 # Full factorial construction of synthetic microbial communities
 
-**Juan Diaz-Colunga<sup>1,2\*</sup>, Pablo Catalan<sup>3\*</sup>, Magdalena San Roman<sup>1,2\*</sup>, Andrea Arrabal<sup>1,2\*</sup>, Alvaro Sanchez<sup>1,2\*</sup> (2024)**
+**Juan Diaz-Colunga<sup>1,2</sup>\*, Pablo Catalan<sup>3</sup>\*, Magdalena San Roman<sup>1,2</sup>\*, Andrea Arrabal<sup>1,2</sup>\*, Alvaro Sanchez<sup>1,2</sup>\* (2024)**
+
+<sup>1</sup> Institute of Functional Biology and Genomics (IBFG-CSIC), University of Salamanca, 37007 Salamanca, Spain
+<sup>2</sup> National Center for Biotechnology (CNB-CSIC), 28049 Madrid, Spain
+<sup>3</sup> Complex Systems Interdisciplinary Group (GISC), Department of Mathematics, Carlos III University of Madrid, 28911 Leganés, Spain
+
+\* All authors contributed equally
 
 The ./data directory contains data for the experiment mixing synthetic colorants (colorants.txt), and for the experiment mixing *Pseudomonas* strains (pseudo.txt).
 
