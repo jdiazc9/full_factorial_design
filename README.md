@@ -25,3 +25,5 @@ The ./scripts directory contains the R scripts to produce the panels in the main
 **pseudo_taylor_vs_fourier.R**   produces panel 5H (functional variance by interaction order) and Supplementary Figure 5.
 
 The ./pics directory contains the pictures of the 96-well plates shown in Supplementary Figure 1.
+
+Please direct any questions to J.D.-C. [jdc@usal.es](mailto:jdc@usal.es)
