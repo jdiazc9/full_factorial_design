@@ -12,6 +12,8 @@
 
 </br></br>
 
+The ./protocol directory contains the detailed step-by-step protocol (protocol_8species_25uL.txt) followed for the assembly of colorant combinations and *Pseudomonas* consortia. It also contains an R script (protocol_generator.R) for users to produce tailored step-by-step protocols with customizable parameters.
+
 The ./data directory contains data for the experiment mixing synthetic colorants (colorants.txt), and for the experiment mixing *Pseudomonas* strains (pseudo.txt).
 
 The ./scripts directory contains the R scripts to produce the panels in the main and supplementary figures. Plots are saved under the ./plots directory. Files description:

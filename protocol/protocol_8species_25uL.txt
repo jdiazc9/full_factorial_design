@@ -1,0 +1,201 @@
+BEFORE WE START
+--------------------------------------------------------------------------------
+
+This protocol requires 3 96-well plates and 8 falcon tubes:
+   Each plate will hold 200 uL per well
+   Each tube will hold 9 mL
+We need each of the 8 species grown in monoculture (min. 4 mL of each monoculture, recommended 19 mL)
+We also need 26 mL of buffer (ddH2O, PBS, or carbon-free medium), recommended 41 mL.
+In what follows, we will assume that the recommended starting volumes are available. If lower volumes are available, the third step of the protocol will need to be adjusted accordingly.
+
+
+STEP 1: compensatory buffer to homogenize final densities
+--------------------------------------------------------------------------------
+
+Label 3 96-well plates as plate_1 to plate_3
+Pipette the indicated volumes of buffer into the indicated columns:
+
+   volume_uL   plate column
+ -       125 plate_1      1
+ -       100 plate_1      2
+ -       100 plate_1      3
+ -       100 plate_1      5
+ -       100 plate_1      9
+ -       100 plate_2      5
+ -        75 plate_1      4
+ -        75 plate_1      6
+ -        75 plate_1      7
+ -        75 plate_1     10
+ -        75 plate_1     11
+ -        75 plate_2      1
+ -        75 plate_2      6
+ -        75 plate_2      7
+ -        75 plate_2      9
+ -        75 plate_3      1
+ -        50 plate_1      8
+ -        50 plate_1     12
+ -        50 plate_2      2
+ -        50 plate_2      3
+ -        50 plate_2      8
+ -        50 plate_2     10
+ -        50 plate_2     11
+ -        50 plate_3      2
+ -        50 plate_3      3
+ -        50 plate_3      5
+ -        25 plate_2      4
+ -        25 plate_2     12
+ -        25 plate_3      4
+ -        25 plate_3      6
+ -        25 plate_3      7
+
+
+STEP 2: inoculate monocultures
+--------------------------------------------------------------------------------
+
+Pipette the indicated volumes of species 4 to 8 monocultures into the indicated columns:
+
+SPECIES 4
+   volume_uL   plate column
+ -        25 plate_1      2
+ -        25 plate_1      4
+ -        25 plate_1      6
+ -        25 plate_1      8
+ -        25 plate_1     10
+ -        25 plate_1     12
+ -        25 plate_2      2
+ -        25 plate_2      4
+ -        25 plate_2      6
+ -        25 plate_2      8
+ -        25 plate_2     10
+ -        25 plate_2     12
+ -        25 plate_3      2
+ -        25 plate_3      4
+ -        25 plate_3      6
+ -        25 plate_3      8
+
+SPECIES 5
+   volume_uL   plate column
+ -        25 plate_1      3
+ -        25 plate_1      4
+ -        25 plate_1      7
+ -        25 plate_1      8
+ -        25 plate_1     11
+ -        25 plate_1     12
+ -        25 plate_2      3
+ -        25 plate_2      4
+ -        25 plate_2      7
+ -        25 plate_2      8
+ -        25 plate_2     11
+ -        25 plate_2     12
+ -        25 plate_3      3
+ -        25 plate_3      4
+ -        25 plate_3      7
+ -        25 plate_3      8
+
+SPECIES 6
+   volume_uL   plate column
+ -        25 plate_1      5
+ -        25 plate_1      6
+ -        25 plate_1      7
+ -        25 plate_1      8
+ -        25 plate_2      1
+ -        25 plate_2      2
+ -        25 plate_2      3
+ -        25 plate_2      4
+ -        25 plate_2      9
+ -        25 plate_2     10
+ -        25 plate_2     11
+ -        25 plate_2     12
+ -        25 plate_3      5
+ -        25 plate_3      6
+ -        25 plate_3      7
+ -        25 plate_3      8
+
+SPECIES 7
+   volume_uL   plate column
+ -        25 plate_1      9
+ -        25 plate_1     10
+ -        25 plate_1     11
+ -        25 plate_1     12
+ -        25 plate_2      1
+ -        25 plate_2      2
+ -        25 plate_2      3
+ -        25 plate_2      4
+ -        25 plate_3      1
+ -        25 plate_3      2
+ -        25 plate_3      3
+ -        25 plate_3      4
+ -        25 plate_3      5
+ -        25 plate_3      6
+ -        25 plate_3      7
+ -        25 plate_3      8
+
+SPECIES 8
+   volume_uL   plate column
+ -        25 plate_2      5
+ -        25 plate_2      6
+ -        25 plate_2      7
+ -        25 plate_2      8
+ -        25 plate_2      9
+ -        25 plate_2     10
+ -        25 plate_2     11
+ -        25 plate_2     12
+ -        25 plate_3      1
+ -        25 plate_3      2
+ -        25 plate_3      3
+ -        25 plate_3      4
+ -        25 plate_3      5
+ -        25 plate_3      6
+ -        25 plate_3      7
+ -        25 plate_3      8
+
+
+STEP 3: 3-species landscape
+--------------------------------------------------------------------------------
+
+Label 8 Falcon tubes as tube_A to tube_H
+Pipette the indicated volumes of buffer (ddH2O, PBS, or carbon-free medium) into the indicated tubes:
+
+   volume_uL   tube
+ -      9000 tube_A
+ -      6000 tube_B
+ -      6000 tube_C
+ -      3000 tube_D
+ -      6000 tube_E
+ -      3000 tube_F
+ -      3000 tube_G
+ -         0 tube_H
+
+Pipette the indicated volumes of species 1 to 3 monocultures into the indicated tubes:
+
+SPECIES 1
+   volume_uL   tube
+ -      3000 tube_B
+ -      3000 tube_D
+ -      3000 tube_F
+ -      3000 tube_H
+
+SPECIES 2
+   volume_uL   tube
+ -      3000 tube_C
+ -      3000 tube_D
+ -      3000 tube_G
+ -      3000 tube_H
+
+SPECIES 3
+   volume_uL   tube
+ -      3000 tube_E
+ -      3000 tube_F
+ -      3000 tube_G
+ -      3000 tube_H
+
+Gently shake tubes to homogenize, then pipette:
+
+ -   75 uL per well from tube 1 into row A of plates 1 to 3
+ -   75 uL per well from tube 2 into row B of plates 1 to 3
+ -   75 uL per well from tube 3 into row C of plates 1 to 3
+ -   75 uL per well from tube 4 into row D of plates 1 to 3
+ -   75 uL per well from tube 5 into row E of plates 1 to 3
+ -   75 uL per well from tube 6 into row F of plates 1 to 3
+ -   75 uL per well from tube 7 into row G of plates 1 to 3
+ -   75 uL per well from tube 8 into row H of plates 1 to 3
