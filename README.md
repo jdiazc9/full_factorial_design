@@ -1,6 +1,6 @@
 # Full factorial construction of synthetic microbial communities
 
-**Juan Diaz-Colunga<sup>1,2</sup>, Pablo Catalan, Magdalena San Roman, Andrea Arrabal, Alvaro Sanchez (2024)**
+**Juan Diaz-Colunga<sup>1,2*</sup>, Pablo Catalan<sup>3*</sup>, Magdalena San Roman<sup>1,2*</sup>, Andrea Arrabal<sup>1,2*</sup>, Alvaro Sanchez<sup>1,2*</sup> (2024)**
 
 The ./data directory contains data for the experiment mixing synthetic colorants (colorants.txt), and for the experiment mixing *Pseudomonas* strains (pseudo.txt).
 
