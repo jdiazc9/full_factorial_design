@@ -2,7 +2,7 @@
 
 <div align="center">Juan Diaz-Colunga, Pablo Catalan, Magdalena San Roman, Andrea Arrabal, Alvaro Sanchez (2024). Full factorial design of synthetic microbial consortia.</div>
 
-
+<br/><br/>
 
 The ./data directory contains data for the experiment mixing synthetic colorants (colorants.txt), and for the experiment mixing *Pseudomonas* strains (pseudo.txt).
 
