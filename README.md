@@ -26,4 +26,6 @@ The ./scripts directory contains the R scripts to produce the panels in the main
 
 The ./pics directory contains the pictures of the 96-well plates shown in Supplementary Figure 1.
 
-Please direct any questions to J.D.-C. [jdc@usal.es](mailto:jdc@usal.es)
+</br></br>
+
+Please direct any questions to J.D.-C. ([jdc@usal.es](mailto:jdc@usal.es))
