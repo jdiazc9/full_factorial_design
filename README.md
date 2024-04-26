@@ -2,7 +2,7 @@
 
 **Juan Diaz-Colunga<sup>1,2</sup>\*, Pablo Catalan<sup>3</sup>\*, Magdalena San Roman<sup>1,2</sup>\*, Andrea Arrabal<sup>1,2</sup>\*, Alvaro Sanchez<sup>1,2</sup>\* (2024)**
 
-<span style="font-size:0.25em;">
+## [
 <sup>1</sup> Institute of Functional Biology and Genomics (IBFG-CSIC), University of Salamanca, 37007 Salamanca, Spain
 </br>
 <sup>2</sup> National Center for Biotechnology (CNB-CSIC), 28049 Madrid, Spain
@@ -10,7 +10,7 @@
 <sup>3</sup> Complex Systems Interdisciplinary Group (GISC), Department of Mathematics, Carlos III University of Madrid, 28911 Leganés, Spain
 </br>
 * All authors contributed equally
-</span>
+]
 
 </br></br>
 
