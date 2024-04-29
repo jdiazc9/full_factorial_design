@@ -788,14 +788,14 @@ ggplot(dfi,
   geom_hline(yintercept = 0, color = 'gray') +
   geom_point() +
   geom_boxplot(outlier.shape = NA,
-               width = 0.25,
+               width = 0.5,
                alpha = 0.25) +
-  scale_y_continuous(name = expression(paste('Functional interaction, ', italic(epsilon), ' (A.U.)', sep = '')),
+  scale_y_continuous(name = expression(paste(italic(epsilon), ' (A.U.)', sep = '')),
                      breaks = pretty_breaks(n = 3),
                      limits = range(c(dfe$delta_i, dfi$eps_ij))) +
   scale_x_discrete(name = 'Species pair') +
   theme_bw() +
-  theme(aspect.ratio = 2,
+  theme(aspect.ratio = 1.6,
         panel.grid = element_blank(),
         strip.background = element_blank(),
         strip.text = element_text(size = 13,
@@ -812,7 +812,7 @@ ggplot(dfi,
 
 ggsave(filename = '../plots/dfi_sublandscape.pdf',
        width = 50,
-       height = 100,
+       height = 50,
        units = 'mm',
        limitsize = F)
 
