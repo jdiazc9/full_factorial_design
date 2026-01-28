@@ -739,7 +739,57 @@ ggsave(filename = '../plots/dfe.pdf',
 
 
 
-# functional effects & interactions within best-consortium sub-landscape
+# interactions within best-consortium sub-landscape
+df3 <- data[data$community %in% focal_comms, ]
+df3 <- cbind(do.call(rbind,
+                     lapply(1:nrow(df3),
+                            FUN = function(i) as.numeric(strsplit(df3$community[i], split = '')[[1]]))),
+             y = df3$absorbance)
+colnames(df3) <- c(paste('sp', landscape_size:1, sep = ''), 'y')
+df3 <- df3[, colSums(df3) != 0]
+
+mylm <- lm(y ~ .*.*.,
+           data = as.data.frame(df3))
+coefs <- data.frame(coef_name = names(mylm$coefficients),
+                    coef_order = c(0, 1, 1, 1, 2, 2, 2, 3),
+                    coef_value = as.numeric(mylm$coefficients))
+
+ggplot(coefs[coefs$coef_order > 0,  ],
+       aes(x = coef_order, y = coef_value)) +
+  geom_hline(yintercept = 0,
+             color = 'gray') +
+  geom_point(cex = 2) +
+  scale_x_continuous(name = 'Interaction\norder',
+                     breaks = c(1, 2, 3),
+                     limits = c(0.5, 3.5)) +
+  scale_y_continuous(name = 'Interaction\nmagnitude (A.U.)',
+                     breaks = pretty_breaks(n = 3),
+                     expand = c(0.1, 0.1)) +
+  theme_bw() +
+  theme(aspect.ratio = 1.8,
+        panel.grid = element_blank(),
+        strip.background = element_blank(),
+        strip.text = element_text(size = 13,
+                                  angle = 0),
+        strip.text.y.left = element_text(angle = 0),
+        strip.text.x = element_text(angle = 90),
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 16),
+        panel.border = element_blank(),
+        legend.position = 'none') +
+  annotate("segment", x=-Inf, xend=Inf, y=-Inf, yend=-Inf, linewidth=0.5) +
+  annotate("segment", x=-Inf, xend=-Inf, y=-Inf, yend=Inf, linewidth=0.5)
+
+ggsave(filename = '../plots/intxns_sublandscape.pdf',
+       width = 60,
+       height = 60,
+       units = 'mm',
+       limitsize = F)
+
+
+
+
+
 dfe <- dfe[dfe$background %in% focal_comms & dfe$species %in% paste('Species', c(1, 3, 4)), ]
 dfi <- dfi[dfi$background %in% focal_comms & dfi$species_i %in% paste('Species', c(1, 3, 4)) & dfi$species_j %in% paste('Species', c(1, 3, 4)), ]
 
